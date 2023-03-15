@@ -1,0 +1,43 @@
+div.nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(53, 56, 59);
+    margin: auto;
+    padding: 10px;
+}
+
+.nav-title {
+    color: white;
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+[href] {
+    display: flex;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.active {
+    color: white;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(1, 174, 174);
+    box-shadow: 2px 2px 2px 2px black;
+    padding: 1px
+}
